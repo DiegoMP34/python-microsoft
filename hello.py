@@ -15,4 +15,5 @@ distance_to_alpha_centauri = 4.367 # float, lightyears
 can_liftoff = True
 shuttle_landed_on_the_moon = "Apollo 11" #string
 ## Como saber el tip de dato.
-type(shuttle_landed_on_the_moon)
+what_type_is = type(shuttle_landed_on_the_moon) ## <class 'str'>
+print(what_type_is)
