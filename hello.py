@@ -34,3 +34,7 @@ a *= 2 #multiplicado por 2
 #fechas - importar el modulo date
 from datetime import date
 print(date.today()) # fecha actual 2023-05-02
+
+#Conversion de datos
+today = str(date.today()) 
+print('El dia de hoy es ' + today)
