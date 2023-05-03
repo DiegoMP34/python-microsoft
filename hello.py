@@ -30,3 +30,7 @@ a += 2 #incrementa en 2
 a -= 2 #decrementa en 2
 a /= 2 #dividido por 2
 a *= 2 #multiplicado por 2
+
+#fechas - importar el modulo date
+from datetime import date
+print(date.today()) # fecha actual 2023-05-02
