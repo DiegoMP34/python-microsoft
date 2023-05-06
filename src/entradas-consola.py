@@ -18,3 +18,10 @@ print("Ingresa los numeros que quiera sumar")
 number1 = input('Ingresa numero 1: ')
 number2 = input('Ingresa numero 2: ')
 print(int(number1) + int(number2))
+
+# Programa que convierte de parsecs a lightyeears, usando el input del usuario
+# Enter code below
+parsecs_input = input('Enter number of parsecs: ')
+parsecs = int(parsecs_input)
+lightyears = parsecs * 3.26156
+print(parsecs_input + ' parsecs = ' + str(lightyears) + ' lightyears')
