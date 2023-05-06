@@ -12,3 +12,9 @@ print(sys.argv[1]) ## 2023-05-6
 print('Bienvenido al este humilde programa')
 userName = input('Ingresa tu nombre: ')
 print("Saludos " + userName)
+
+#trabajo con numeros
+print("Ingresa los numeros que quiera sumar")
+number1 = input('Ingresa numero 1: ')
+number2 = input('Ingresa numero 2: ')
+print(int(number1) + int(number2))
