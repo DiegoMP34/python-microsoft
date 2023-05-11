@@ -30,3 +30,10 @@ if p >= q:
 elif q > p:
     print('q es mayor que p')
 #nos muestra que es una sintaxis invalida
+
+#uso de and y or
+if p == 10 or q == 10:
+    print(p + q)
+
+if p > 1 and q > 9:
+    print(q * p)
