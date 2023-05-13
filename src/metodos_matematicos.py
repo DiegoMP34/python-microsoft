@@ -22,3 +22,16 @@ print(redonde_arriba)
 redonde_abajo = floor(13.6)
 print(str(redonde_abajo) + "\n\n")
 
+#Ejercicio - resta las distancias de los planetas con respecto al sol.
+# y usa algunos de los metodos como abs, int y input
+primer_planeta_input = input("Ingresa la primera distancia del planeta: ")
+segundo_planeta_input = input("Ingresa la primera distancia del planeta: ")
+
+# conversion a entero
+primer_planeta = int(primer_planeta_input)
+segundo_planeta = int(segundo_planeta_input)
+
+# absoluto
+distancia_km = abs(primer_planeta - segundo_planeta)
+
+print(distancia_km)
