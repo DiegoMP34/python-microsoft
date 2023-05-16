@@ -9,5 +9,3 @@ except FileNotFoundError:
 ## este tipo de manejo, solo aplica para los errores FileNotFoundError
 
 
-
-
