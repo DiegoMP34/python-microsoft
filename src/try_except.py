@@ -7,5 +7,3 @@ try:
 except FileNotFoundError:
     print("No se encontro el archivo config.txt")
 ## este tipo de manejo, solo aplica para los errores FileNotFoundError
-
-
