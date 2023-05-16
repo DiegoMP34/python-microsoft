@@ -93,3 +93,11 @@ secuencia_tiempo()
 secuencia_tiempo(4,14,18)
 # la variable se le denomina catch-all
 
+#Combinacion entre palabra clave y variable de argumentos
+def miembros_crew(**kwargs):
+    print(f"{len(kwargs)} astronautas fueron asignados para esta mision, son:")
+    print(kwargs.items())
+    for title, name in kwargs.items():
+        print(f"{title} : {name}")
+
+miembros_crew(captain = 'Neil Armstrong', pilot = "Buzz aldrin", command_pilot="Michael Collins")
