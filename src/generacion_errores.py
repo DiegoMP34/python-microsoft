@@ -5,7 +5,9 @@ def water_left(astronauts, water_left, days_left):
     daily_usage = astronauts * 11
     total_usage = daily_usage * days_left
     total_water_left = water_left - total_usage
+    #generamos una excepcion para alertar
+    if total_water_left < 0:
+        raise RuntimeError(f"No hay suficiente agua para {astronauts} astronautas despues de {days_left} dias!")
     return f"Total water left after {days_left} days is: {total_water_left} liters"
-
 
 print(water_left(5,100,2))
